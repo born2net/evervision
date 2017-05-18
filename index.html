@@ -1,857 +1,901 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="en">
 <head>
-<title>interactive digital signage & kiosk</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--bootstrap css-->
-<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!--Layout css-->
-<link href="css/template.css" rel="stylesheet" type="text/css">
- <!--video player css css-->
-<link href="css/YTPlayer.css" rel="stylesheet" type="text/css">
-<!--flex slider css-->
-<link href="css/flexslider.css" rel="stylesheet">
-<!--google web fonts css-->
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,800' rel='stylesheet' type='text/css'>
-<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>interactive digital signage & kiosk</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--bootstrap css-->
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--Layout css-->
+    <link href="css/template.css" rel="stylesheet" type="text/css">
+    <!--video player css css-->
+    <link href="css/YTPlayer.css" rel="stylesheet" type="text/css">
+    <!--flex slider css-->
+    <link href="css/flexslider.css" rel="stylesheet">
+    <!--google web fonts css-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,800' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-<!-- icons css-->
-<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<!--animated css-->
-<link href="css/animate.css" rel="stylesheet">
-<!--owl carousel css-->
-<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
-<link href="css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
-<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<script src="js/respond.min.js"></script>
-<![endif]-->
+    <!-- icons css-->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!--animated css-->
+    <link href="css/animate.css" rel="stylesheet">
+    <!--owl carousel css-->
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
+    <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#navigation" data-offset="80">
 
-        <section id="home" class="home-video full-screen-dem" data-stellar-background-ratio="0.5">
-            <div class="parallax-overlay"></div> 
-              <a id="video" class="player" data-property="{videoURL:'http://youtu.be/oi2o2r3Sgc0',containment:'#home', showControls:true, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>
+<section id="home" class="home-video full-screen-dem" data-stellar-background-ratio="0.5">
+    <div class="parallax-overlay"></div>
+    <!--<a id="video" class="player" data-property="{videoURL:'http://youtu.be/oi2o2r3Sgc0',containment:'#home', showControls:true, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>-->
 
-            <div class="home-content text-center">
-                <div class="container">
-                    <h1 class="slide-logo">
-                        <div class="logo-gr"><img src="img/logo.png" /></div>
-                        <div class="logo-evervision"><span>digital</span>signage.com </div>
-                    </h1>
-                    <div class="main-flex-slider">
-                        <ul class="slides">
-                            <li>
-                                <h1>create amazing multi touch apps </h1>
+    <div class="home-content text-center">
+        <div class="container">
+            <h1 class="slide-logo">
+                <div class="logo-gr"><img src="img/logo.png"/></div>
+                <div class="logo-evervision"><span>digital</span>signage.com</div>
+            </h1>
+            <div class="main-flex-slider">
+                <ul class="slides">
+                    <li>
+                        <h1>create amazing multi touch apps </h1>
 
-                            </li>
-                            <li>
-                                <h1>no coding skills required</h1>
+                    </li>
+                    <li>
+                        <h1>no coding skills required</h1>
 
-                            </li>
-                            <li>
-                                <h1>works on any device</h1>
-                            </li>
-                        </ul>
-                    </div> 
-                    <h2 class="slide-btm-text">
-                        ready to build your Kiosk?
-                    </h2>
-                    <div class="home-arrow-down text-center">
-                        <p class="scrollto">
-                            <a href="#about" class="btn btn-lg btn-theme-color">
-                                let's Start
-                            </a>
+                    </li>
+                    <li>
+                        <h1>works on any device</h1>
+                    </li>
+                </ul>
+            </div>
+            <h2 class="slide-btm-text">
+                ready to build your Kiosk?
+            </h2>
+            <div class="home-arrow-down text-center">
+                <p class="scrollto">
+                    <a href="#about" class="btn btn-lg btn-theme-color">
+                        let's Start
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="navigation">
+    <div class="navbar navbar-default navbar-static-top sticky" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a style="padding-top: 25px" class="navbar-brand " href="http://www.digitalsignage.com" target="_blank">
+                    <div class="logo-gr"><img src="img/logo.png"/></div>
+                    <!--<div class="logo-evervision"><span>digital</span>signage.com </div>-->
+                    <!--<div class="logo-evervision"><span>digital</span>signage.com </div>-->
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav navbar-right scrollto">
+                    <li><a href="#about">Interactive Signage</a></li>
+                    <li><a href="#how">How It Works</a></li>
+                    <li><a href="#services">Features</a></li>
+                    <li><a href="#work">Videos</a></li>
+                    <li><a href="#benefits">Distribute</a></li>
+                    <li><a href="#team">Examples</a></li>
+                    <li><a href="#contact">Easy Start</a></li>
+
+                </ul>
+
+            </div><!--/.nav-collapse -->
+        </div><!--/.container -->
+    </div>
+</section><!--navigation section end here-->
+<section id="about" class="padding-80" style="padding-bottom: 0px;">
+
+    <!--about page content-->
+    <div class="about-section">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h4 class="small section-title">
+                            <span>
+                                interactive digital signage &  kiosk solutions
+                            </span>
+                </h4>
+                <h2 class="large">
+                    mediaTOUCH
+                </h2>
+            </div><!--section heading-->
+
+        </div><!--container-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="about-box wow animated fadeInDown" data-wow-duration="0.3s">
+                        <div class="about-box-icon">
+                            <i class="fa fa-line-chart"></i>
+                        </div>
+                        <div class="about-box-text">
+                            <h4>Get up and running under a minute</h4>
+                            <p>Pick from our existing library of interactive digital signage templates. These include professionally created kiosk menu boards, building directories, interactive menus, product selectors and much more.
+                            </p>
+                        </div>
+                    </div><!--about us box end-->
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="about-box wow animated fadeInDown" data-wow-delay="0.5">
+                        <div class="about-box-icon">
+                            <i class="fa fa-balance-scale"></i>
+                        </div>
+                        <div class="about-box-text">
+                            <h4>GPU powered smoothness</h4>
+                            <p>
+                                We take performance very seriously. We compile the SignagePlayer to each native platform's runtime.
+                                This ensures that we can take advantage of GPU processing and deliver scrolling feeds, transitions and user responsiveness that is like no other solution.
+                                With our interactive digital experience, users feel the same responsiveness that they are accustomed to, just like any other native iPhone or Android app; no delay, no jitters.
+                            </p>
+                        </div>
+                    </div><!--about us box end-->
+                </div>
+            </div><!--about services row end-->
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="about-box wow animated fadeInDown" data-wow-delay="0.6s">
+                        <div class="about-box-icon">
+                            <i class="fa fa-lightbulb-o"></i>
+                        </div>
+                        <div class="about-box-text">
+                            <h4>Drag and drop design</h4>
+                            <p>
+                                Use the Studio to drag and drop your favorite components including radio buttons, checkboxes, lists, numeric steppers, input fields, labels, menus, carousels, shopping cart and many more.
+                                Tie it all together with GPU transition and effects and create a professional looking kiosk application; and best of all, zero coding skills are required.
+                                Use the flexibility of scenes to create any type of layout and build a dynamic business logic which caters to your organization's needs.
+                            </p>
+                        </div>
+                    </div><!--about us box end-->
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="about-box wow animated fadeInDown" data-wow-delay="0.8s">
+                        <div class="about-box-icon">
+                            <i class="fa fa-cog"></i>
+                        </div>
+                        <div class="about-box-text">
+                            <h4>Collect analytics</h4>
+                            <p>
+                                Generate detailed reports of proof of play so you can easily measure the effectiveness of your interactive campaigns.
+                                Measure clicks at the resource level and get detailed measurements. Cross reference the entire data set against your sales to get a real world view of your ROI.
+                            </p>
+                        </div>
+                        <div style="display: block; height: 100px;"></div>
+                    </div><!--about us box end-->
+                </div>
+
+            </div><!--about services row end-->
+
+        </div>
+    </div>
+
+    <div class="purchase-now parallax" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1 class="wow animated fadeInLeft" data-wow-delay="0.3s"><strong>Checkout </strong> the <strong>tutorials</strong> and <strong>start building now</strong></h1>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://www.digitalsignage.com/_html/signage_video.html" target="_blank" class="btn btn-lg btn-theme-color wow animated bounceIn" data-wow-delay="0.6s"> video tutorials</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--page about content end here-->
+
+    <!--page about content end here-->
+</section>
+<!--about section end here-->
+
+<!--section services start here-->
+
+<section id="how" class="padding-80" style="background: #F1F1F1;">
+    <div class="services-section-1">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h4 class="small section-title"><span>But How?</span></h4>
+                <h2 class="large section-title">How it Works</h2>
+            </div><!--section heading-->
+
+        </div><!--container-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="http://mediasignage.com/videos/MediaSignageIntroV4.mp4" class="html5lightbox img9" title="Intro to mediaTOUCH">
+                        <img src="img/screen3.jpg" style="border: 1px solid #ddd; border-radius: 5px; padding: 10px; width: 100%; height: auto;"/>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="margin-btm-40">
+                        <br/>
+                        <br/>
+                        <h4>A Brief Overview</h4>
+                        <p>
+                            At the core of our interactive digital signage solution are scenes. Scenes are the building blocks which allow you to create the design that you are looking for.
+                            Simply drag and drop touch components into a scene and wire each component, for a example a button, to fire an event when pressed.
+                            Events are global triggers which other components can listen to, and react to corresponding events which they are interested in.
+                            Use data providers to get live data from multiple sources including our cloud db, dropbox or even your own backend servers, and bind these data providers to the same events we mentioned earlier.
+                            To see just how easy it is to setup, be sure to checkout the video to left.
+                            <br/>
+                            <br/>
+                            If you feel that you need assistance, don't worry, just ping our live chat team, or let our professional design team create an interactive signage presentation for you.
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="navigation">
-           <div class="navbar navbar-default navbar-static-top sticky" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a style="padding-top: 25px" class="navbar-brand " href="http://www.digitalsignage.com" target="_blank">
-                           <div class="logo-gr"><img src="img/logo.png" /></div>
-                           <!--<div class="logo-evervision"><span>digital</span>signage.com </div>-->
-                           <!--<div class="logo-evervision"><span>digital</span>signage.com </div>-->
+        </div>
+    </div>
+</section>
+
+<section id="services" class="padding-80">
+
+
+    <div class="services-section-1">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h4 class="small section-title"><span>The Rundown</span></h4>
+                <h2 class="large section-title">Features</h2>
+            </div><!--section heading-->
+
+        </div><!--container-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="margin-btm-40">
+                        <h4>Build a Kiosk application using a modern platform</h4>
+                        <p>
+                            With our Studio you will simply drag and drop your favorite components, such as buttons, checkboxes, lists and more and build an interactive digital application that your customers will love.
+                            Our Studio enables a “what you see is what you get” experience like no other.
+                            Your design creations looks identical in both the studio and SignagePlayer, so there are no surprises.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 wow animated fadeInLeft" data-wow-delay="0.3s">
+
+                    <div class="row margin-btm-20">
+                        <div class="col-md-2">
+                            <div class="services-icon">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="services-info">
+                                <h3>User touch controls</h3>
+                                <p>
+                                    Select from a range of UI controls including text inputs, radio buttons, dynamic buttons, checkboxes, sliders, scroller, carousel, steppers, soft keyboard, switch, form, shopping cart, image sliders and more.
+                                    All the controls use a common interface, making building a dynamic kiosk app as simple as point and click.
+                                </p>
+                            </div>
+                        </div>
+                    </div><!--.services row end-->
+                    <div class="row margin-btm-20">
+                        <div class="col-md-2">
+                            <div class="services-icon">
+                                <i class="fa fa-video-camera"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="services-info">
+                                <h3>Virtual keyboard</h3>
+                                <p>
+                                    Our built in virtual keyboard ensures a smooth integration with user input regardless of which device or OS you use.
+                                    The soft keyboard is 100% customizable so you can create any type of keyboard layout you like.
+                                    Do you need a numeric keypad, do you wish to support limited keys or design a keyboard with unique behaviour? all are simple to do with the virtual draggable keyboard.
+                                </p>
+                            </div>
+                        </div>
+                    </div><!--.services row end-->
+                    <div class="row margin-btm-20">
+                        <div class="col-md-2">
+                            <div class="services-icon">
+                                <i class="fa fa-balance-scale"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="services-info">
+                                <h3>Shopping cart</h3>
+                                <p>
+                                    Allowing your customers the ability to place orders directly on your interactive screens will ensure a streamline experience that can reduce wait times and help your bottom line.
+                                    The built in shopping cart allows for simple product management and even includes multi screen live synchronization; this means that as your customers place orders, your employees
+                                    can track the items and prepare the product just-in-time.
+                                </p>
+                            </div>
+                        </div>
+                    </div><!--.services row end-->
+                </div>
+                <div class="col-md-6 wow animated fadeInRight" data-wow-delay="0.6s">
+
+                    <div class="row margin-btm-20">
+                        <div class="col-md-2">
+                            <div class="services-icon">
+                                <i class="fa fa-thumbs-o-up"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="services-info">
+                                <h3>Themes</h3>
+                                <p>
+                                    The touch solution also includes over a dozen different themes.
+                                    Designed themes target both mobile as well as desktop devices so you can rest assure your UI components will always look great.
+                                    The touch interface and all the layered themes were created entirely to be processed on the GPU;
+                                    this enables a real time responsiveness from UI controls regardless which theme you use or how elaborate you configuration is.
+                                </p>
+                            </div>
+                        </div>
+                    </div><!--.services row end-->
+                    <div class="row margin-btm-20">
+                        <div class="col-md-2">
+                            <div class="services-icon">
+                                <i class="fa fa-check-circle-o"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="services-info">
+                                <h3>Animation and transitions</h3>
+                                <p>
+                                    If you really want to deliver the wow factor, make sure you take advantage of animation and transitions.
+                                    Animation enables you to create element animation that can happen upon your triggers fire.
+                                    Animation is often used to suggest to your user of a particular action that has taken place and it is an invaluable part of any kiosk solution.
+                                    Pick from existing set of transitions or create your own via 2D and 3D property settings.
+                                </p>
+                            </div>
+                        </div>
+                    </div><!--.services row end-->
+                    <div class="row margin-btm-20">
+                        <div class="col-md-2">
+                            <div class="services-icon">
+                                <i class="fa fa-lock"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="services-info">
+                                <h3>Data providers</h3>
+                                <p>
+                                    Data providers is a way to bind to remote information that can exist anywhere including our own cloud db, amazon services, your own private server, dropbox and others.
+                                    This means that your screens are always relevant and can retrieve as well as post user changes to and from any data repository.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div><!--.services row end-->
+                </div>
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+    </div><!--services section 1 end-->
+
+    <div class="services-section-2 parallax" data-stellar-background-ratio="0.5">
+        <!--<div class="container">-->
+        <!--<div class="row">-->
+        <!--<div class="col-sm-8">-->
+        <!--<h1 class="wow animated fadeInLeft" data-wow-delay="0.3s"><strong>Ready to start?</strong> open your <strong>FREE</strong> account <strong>now</strong></h1>-->
+        <!--</div>-->
+        <!--<div class="col-sm-4">-->
+        <!--<a href="http://start.digitalsignage.com" target="_blank" class="btn btn-lg btn-theme-color wow animated bounceIn" data-wow-delay="0.6s"> get started</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1 class="wow animated fadeInLeft" data-wow-delay="0.3s">Learn from pre-built samples</h1>
+                    <h5 style="color: white">Need a help starting a project? we offer a large number of pre-built touch templates</h5>
+                    <p style="color: white">All the content is already included in your free account so you don't have to pay extra for beautiful pre-made content</p>
+                    <ul>
+                        <li>fully customizable</li>
+                        <li>select from templates that match your industry</li>
+                        <li>pre-loaded with content</li>
+                        <li>wired up for events and actions</li>
+                        <li>edit > save and you are done</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/stack.png" target="_blank" style="width: 718px; height: 317px">
+                </div>
+            </div>
+        </div>
+    </div><!--services section 1 end-->
+
+
+</section>
+<!--section services end here-->
+
+
+<!-- videos -->
+<section id="work" class="padding-80">
+
+    <div class="work-section-1">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h4 class="small section-title">
+                    <span>What It Looks Like</span>
+                </h4>
+                <h2 class="large section-title">Video tutorials</h2>
+            </div><!--section heading-->
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="portfolio-box iso-call work-col-4">
+                    <div class="project-post illustration web-design">
+                        <a href="img/screen2.jpg" target="_blank">
+                            <div class="image-wrapper">
+                                <a href="http://mediasignage.com/videos/MediaSignageIntroV4.mp4" class="html5lightbox img9" title="Intro to mediaTOUCH">
+                                    <img src="img/screen2.jpg" class="img-responsive" alt="work-1">
+                                    <div class="image-overlay">
+                                        <p> View Detail </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="work-sesc">
+                                <p>
+                                    Contribution Systems
+                                </p>
+                            </div>
                         </a>
                     </div>
-                    <div class="navbar-collapse collapse">
 
-                        <ul class="nav navbar-nav navbar-right scrollto">
-                            <li><a href="#about">Interactive Signage</a></li>
-                            <li><a href="#how">How It Works</a></li>
-                            <li><a href="#services">Features</a></li>
-                            <li><a href="#work">Videos</a></li>
-                            <li><a href="#benefits">Benefits</a></li>
-                            <li><a href="#team">Integration</a></li>
-                            <li><a href="#contact">Easy Start</a></li>
-
-                        </ul>
-
-                    </div><!--/.nav-collapse -->
-                </div><!--/.container -->
-            </div>
-        </section><!--navigation section end here-->
-        <section id="about" class="padding-80" style="padding-bottom: 0px;">
-
-            <!--about page content-->
-            <div class="about-section">
-                <div class="container">
-                    <div class="section-heading text-center">
-                        <h4 class="small section-title">
-                            <span>
-                                interactive digital signage &  kiosk solutions
-                            </span>
-                        </h4>
-                        <h2 class="large">
-                            mediaTOUCH
-                        </h2>
-                    </div><!--section heading-->             
-
-                </div><!--container-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="about-box wow animated fadeInDown" data-wow-duration="0.3s">
-                                <div class="about-box-icon">
-                                    <i class="fa fa-line-chart"></i>
-                                </div>
-                                <div class="about-box-text">
-                                    <h4>Get up and running under a minute</h4>
-                                    <p>Pick from our existing library of interactive digital signage templates. These include professionally created kiosk menu boards, building directories, interactive menus, product selectors and much more.
-                                    </p>
-                                </div>
-                            </div><!--about us box end-->
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="about-box wow animated fadeInDown" data-wow-delay="0.5">
-                                <div class="about-box-icon">
-                                    <i class="fa fa-balance-scale"></i>
-                                </div>
-                                <div class="about-box-text">
-                                    <h4>GPU powered smoothness</h4>
-                                    <p>
-                                        We take performance very seriously. We compile the SignagePlayer to each native platform's runtime.
-                                        This ensures that we can take advantage of GPU processing and deliver scrolling feeds, transitions and user responsiveness that is like no other solution.
-                                        With our interactive digital experience, users feel the same responsiveness that they are accustomed to, just like any other native iPhone or Android app; no delay, no jitters.
-                                    </p>
-                                </div>
-                            </div><!--about us box end-->
-                        </div>
-                    </div><!--about services row end--> 
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="about-box wow animated fadeInDown" data-wow-delay="0.6s">
-                                <div class="about-box-icon">
-                                    <i class="fa fa-lightbulb-o"></i>
-                                </div>
-                                <div class="about-box-text">
-                                    <h4>Drag and drop design</h4>
-                                    <p>
-                                        Use the Studio to drag and drop your favorite components including radio buttons, checkboxes, lists, numeric steppers, input fields, labels, menus, carousels, shopping cart and many more.
-                                        Tie it all together with GPU transition and effects and create a professional looking kiosk application; and best of all, zero coding skills are required.
-                                        Use the flexibility of scenes to create any type of layout and build a dynamic business logic which caters to your organization's needs.
-                                    </p>
-                                </div>
-                            </div><!--about us box end-->
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="about-box wow animated fadeInDown" data-wow-delay="0.8s">
-                                <div class="about-box-icon">
-                                    <i class="fa fa-cog"></i>
-                                </div>
-                                <div class="about-box-text">
-                                    <h4>Collect analytics</h4>
-                                    <p>
-                                        Generate detailed reports of proof of play so you can easily measure the effectiveness of your interactive campaigns.
-                                        Measure clicks at the resource level and get detailed measurements. Cross reference the entire data set against your sales to get a real world view of your ROI.
-                                    </p>
-                                </div>
-                                <div style="display: block; height: 100px;"></div>
-                            </div><!--about us box end-->
-                        </div>
-                        
-                    </div><!--about services row end-->
-                   
-                </div>
-            </div>
-
-            <div class="purchase-now parallax" data-stellar-background-ratio="0.5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <h1 class="wow animated fadeInLeft" data-wow-delay="0.3s"><strong>Checkout </strong> the <strong>tutorials</strong> and <strong>start building now</strong></h1>
-                        </div>
-                        <div class="col-sm-4">
-                            <a href="http://www.digitalsignage.com/_html/signage_video.html" target="_blank" class="btn btn-lg btn-theme-color wow animated bounceIn" data-wow-delay="0.6s"> video tutorials</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--page about content end here-->     
-            
-            <!--page about content end here-->  
-        </section>
-        <!--about section end here-->
-
-        <!--section services start here-->
-
-        <section id="how" class="padding-80" style="background: #F1F1F1;">
-            <div class="services-section-1">
-                <div class="container">
-                    <div class="section-heading text-center">
-                        <h4 class="small section-title"><span>But How?</span></h4>
-                        <h2 class="large section-title">How it Works</h2>
-                    </div><!--section heading-->             
-
-                </div><!--container-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="img/screen3.jpg" target="_blank">
-                                <img src="img/screen3.jpg" style="border: 1px solid #ddd; border-radius: 5px; padding: 10px; width: 100%; height: auto;" />
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="margin-btm-40">
-                                <br />
-                                <br />
-                                <h4>A Brief Overview</h4>
+                    <div class="project-post illustration web-design">
+                        <a href="img/screen2.jpg" target="_blank">
+                            <div class="image-wrapper">
+                                <a href="http://mediasignage.com/videos/MediaSignageIntroV4.mp4" class="html5lightbox img9" title="Intro to mediaTOUCH">
+                                    <img src="img/screen2.jpg" class="img-responsive" alt="work-1">
+                                    <div class="image-overlay">
+                                        <p> View Detail </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="work-sesc">
                                 <p>
-                                    At the core of our interactive digital signage solution are scenes. Scenes are the building blocks which allow you to create the design that you are looking for.
-                                    Simply drag and drop touch components into a scene and wire each component, for a example a button, to fire an event when pressed.
-                                    Events are global triggers which other components can listen to, and react to corresponding events which they are interested in.
-                                    Use data providers to get live data from multiple sources including our cloud db, dropbox or even your own backend servers, and bind these data providers to the same events we mentioned earlier.
-                                    To see just how easy it is to setup, be sure to checkout the video to left.
-                                    <br/>
-                                    <br/>
-                                    If you feel that you need assistance, don't worry, just ping our live chat team, or let our professional design team create an interactive signage presentation for you.
+                                    Contribution Systems
                                 </p>
                             </div>
-                        </div>
+                        </a>
+                    </div>
+                    <div class="project-post photography web-design">
+                        <a href="img/screen3.jpg" target="_blank">
+                            <div class="image-wrapper">
+                                <img src="img/screen3.jpg" class="img-responsive" alt="work-1">
+                                <div class="image-overlay">
+                                    <p>
+                                        View Detail
+                                    </p>
+                                </div><!--.image-overlay-->
+                            </div><!--.image-wrapper-->
+
+                            <div class="work-sesc">
+                                <p>
+                                    Browsing
+                                </p>
+                            </div><!--.work-desc--> </a>
+                    </div><!--project post-->
+
+                    <div class="project-post branding">
+                        <a href="img/screen4.jpg" target="_blank">
+                            <div class="image-wrapper">
+                                <img src="img/screen4.jpg" class="img-responsive" alt="work-1">
+                                <div class="image-overlay">
+                                    <p>
+                                        View Detail
+                                    </p>
+                                </div><!--.image-overlay-->
+                            </div><!--.image-wrapper-->
+                        </a>
+                        <div class="work-sesc">
+                            <p>
+                                Start Campaigns
+                            </p>
+                        </div><!--.work-desc-->
+                    </div><!--project post-->
+
+
+                    <div class="project-post illustration web-design">
+                        <a href="img/screen5.jpg" target="_blank">
+                            <div class="image-wrapper">
+                                <img src="img/screen5.jpg" class="img-responsive" alt="work-1">
+                                <div class="image-overlay">
+                                    <p>
+                                        View Detail
+                                    </p>
+                                </div><!--.image-overlay-->
+                            </div><!--.image-wrapper-->
+
+                            <div class="work-sesc">
+                                <p>
+                                    Admin Dashboard
+                                </p>
+                            </div><!--.work-desc-->
+                        </a>
+                    </div><!--project post-->
+
+
+                    <div class="project-post illustration web-design">
+                        <a href="img/screen6.jpg" target="_blank">
+                            <div class="image-wrapper">
+                                <img src="img/screen6.jpg" class="img-responsive" alt="work-1">
+                                <div class="image-overlay">
+                                    <p>
+                                        View Detail
+                                    </p>
+                                </div><!--.image-overlay-->
+                            </div><!--.image-wrapper-->
+                            <div class="work-sesc">
+                                <p>
+                                    WeiCoin Token Builder
+                                </p>
+                            </div><!--.work-desc-->
+                        </a>
+                    </div><!--project post-->
+                    <div class="project-post illustration web-design">
+                        <a href="img/screen2.jpg" target="_blank">
+                            <div class="image-wrapper">
+                                <img src="img/screen2.jpg" class="img-responsive" alt="work-1">
+                                <div class="image-overlay">
+                                    <p>
+                                        View Detail
+                                    </p>
+                                </div><!--.image-overlay-->
+                            </div><!--.image-wrapper-->
+
+                            <div class="work-sesc">
+                                <p>
+                                    Contribution Systems
+                                </p>
+                            </div><!--.work-desc--> </a>
+                    </div><!--project post-->
+                    <div class="project-post illustration web-design">
+                        <a href="img/screen6.jpg" target="_blank">
+                            <div class="image-wrapper">
+                                <img src="img/screen6.jpg" class="img-responsive" alt="work-1">
+                                <div class="image-overlay">
+                                    <p>
+                                        View Detail
+                                    </p>
+                                </div><!--.image-overlay-->
+                            </div><!--.image-wrapper-->
+                            <div class="work-sesc">
+                                <p>
+                                    WeiCoin Token Builder
+                                </p>
+                            </div><!--.work-desc-->
+                        </a>
+                    </div><!--project post-->
+
+                </div>
+            </div>
+
+
+            <br/><br/><br/><br/> <br/>
+        </div><!--container-->
+
+
+    </div><!--work section 1-->
+
+    <!-- benefits -->
+    <div class="services-section-1" id="benefits">
+        <div class="container">
+            <div class="section-heading text-center">
+
+                <br/><br/><br/><br/> <br/>
+
+                <h4 class="small section-title"><span>Capitalize on the platform</span></h4>
+                <h2 class="large section-title">Distribute your touch app</h2>
+            </div><!--section heading-->
+
+        </div><!--container-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="margin-btm-40">
+                        <h4>For designers</h4>
+                        <p>
+                            Designers can create a fully branded solution and deliver a product to their clients which they can both maintain and refactor over time.
+                            Digital interactive signage has become a popular continuous source of income for designers world wide.
+                            With our kiosk solution we help promote this venture by allowing designers the ability to fully brand the entire solution and by incorporating all the tools designers need to create a sophisticated application which they
+                            can support over time.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section id="services" class="padding-80">
-
-
-            <div class="services-section-1">
-                <div class="container">
-                    <div class="section-heading text-center">
-                        <h4 class="small section-title"><span>The Rundown</span></h4>
-                        <h2 class="large section-title">Features</h2>
-                    </div><!--section heading-->             
-
-                </div><!--container-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="margin-btm-40">
-                                <h4>Build a Kiosk application using a modern platform</h4>
-                                <p>
-                                    With our Studio you will simply drag and drop your favorite components, such as buttons, checkboxes, lists and more and build an interactive digital application that your customers will love.
-                                    Our Studio enables a “what you see is what you get” experience like no other.
-                                    Your design creations looks identical in both the studio and SignagePlayer, so there are no surprises.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 wow animated fadeInLeft" data-wow-delay="0.3s">
-
-                            <div class="row margin-btm-20">
-                                <div class="col-md-2">
-                                    <div class="services-icon">
-                                        <i class="fa fa-cogs"></i>
-                                    </div> 
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="services-info">
-                                        <h3>User touch controls</h3>
-                                        <p>
-                                            Select from a range of UI controls including text inputs, radio buttons, dynamic buttons, checkboxes, sliders, scroller, carousel, steppers, soft keyboard, switch, form, shopping cart, image sliders and more.
-                                            All the controls use a common interface, making building a dynamic kiosk app as simple as point and click.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
-                                <div class="col-md-2">
-                                    <div class="services-icon">
-                                        <i class="fa fa-video-camera"></i>
-                                    </div> 
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="services-info">
-                                        <h3>Virtual keyboard</h3>
-                                        <p>
-                                            Our built in virtual keyboard ensures a smooth integration with user input regardless of which device or OS you use.
-                                            The soft keyboard is 100% customizable so you can create any type of keyboard layout you like.
-                                            Do you need a numeric keypad, do you wish to support limited keys or design a keyboard with unique behaviour? all are simple to do with the virtual draggable keyboard.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
-                                <div class="col-md-2">
-                                    <div class="services-icon">
-                                        <i class="fa fa-balance-scale"></i>
-                                    </div> 
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="services-info">
-                                        <h3>Shopping cart</h3>
-                                        <p>
-                                            Allowing your customers the ability to place orders directly on your interactive screens will ensure a streamline experience that can reduce wait times and help your bottom line.
-                                            The built in shopping cart allows for simple product management and even includes multi screen live synchronization; this means that as your customers place orders, your employees
-                                            can track the items and prepare the product just-in-time.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!--.services row end-->
-                        </div>
-                        <div class="col-md-6 wow animated fadeInRight" data-wow-delay="0.6s">
-
-                            <div class="row margin-btm-20">
-                                <div class="col-md-2">
-                                    <div class="services-icon">
-                                        <i class="fa fa-thumbs-o-up"></i>
-                                    </div> 
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="services-info">
-                                        <h3>Themes</h3>
-                                        <p>
-                                            The touch solution also includes over a dozen different themes.
-                                            Designed themes target both mobile as well as desktop devices so you can rest assure your UI components will always look great.
-                                            The touch interface and all the layered themes were created entirely to be processed on the GPU;
-                                            this enables a real time responsiveness from UI controls regardless which theme you use or how elaborate you configuration is.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
-                                <div class="col-md-2">
-                                    <div class="services-icon">
-                                        <i class="fa fa-check-circle-o"></i>
-                                    </div> 
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="services-info">
-                                        <h3>Animation and transitions</h3>
-                                        <p>
-                                            If you really want to deliver the wow factor, make sure you take advantage of animation and transitions.
-                                            Animation enables you to create element animation that can happen upon your triggers fire.
-                                            Animation is often used to suggest to your user of a particular action that has taken place and it is an invaluable part of any kiosk solution.
-                                            Pick from existing set of transitions or create your own via 2D and 3D property settings.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!--.services row end-->
-                            <div class="row margin-btm-20">
-                                <div class="col-md-2">
-                                    <div class="services-icon">
-                                        <i class="fa fa-lock"></i>
-                                    </div> 
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="services-info">
-                                        <h3>Data providers</h3>
-                                        <p>
-                                            Data providers is a way to bind to remote information that can exist anywhere including our own cloud db, amazon services, your own private server, dropbox and others.
-                                            This means that your screens are always relevant and can retrieve as well as post user changes to and from any data repository.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div><!--.services row end-->
-                        </div>
-                    </div>
-                </div>
-                
-                <br />
-                <br />
-                <br />
-            </div><!--services section 1 end-->
-
-            <div class="services-section-2 parallax" data-stellar-background-ratio="0.5">
-                <div class="container">
-                    <div class="row">                        
-                        <div id="mc_embed_signup" 
-                             class="col-md-12 text-center">
-                            <h1>Get News & Updates</h1>
-                            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div class="row">
-                                    <div class="col-sm-4 col-sm-offset-4">
-                                        <div class="input-group">
-                                            <label class="sr-only" for="subscribe-email">Email address</label>
-                                            <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email"  id="mce-EMAIL">
-                                            <div id="mce-responses" class="clear">
-                                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                                <div class="response" id="mce-success-response" style="display:none"></div>
-                                            </div>
-                                            <div style="position: absolute; left: -5000px;">
-                                                <input type="text" name="b_5fd10dccde0a9e8f200ae4e44_6c94b8c26f" tabindex="-1" value=""></div>
-                                            <span class="input-group-btn">
-                                                <input type="submit" value="OK" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-theme-color">
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div><!--services section 1 end-->
-            
-
-
-            
-        </section>
-        <!--section services end here-->
-
-
-
-
-        <!-- videos -->
-        <section id="work" class="padding-80">
-
-            <div class="work-section-1">
-                <div class="container">
-                    <div class="section-heading text-center">
-                        <h4 class="small section-title">
-                            <span>What It Looks Like</span>
-                        </h4>
-                        <h2 class="large section-title">Videos</h2>
-                    </div><!--section heading-->
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="portfolio-box iso-call work-col-4">
-                            <div class="project-post photography branding">
-                                <a href="img/screen1.jpg" target="_blank">
-                                    <div class="image-wrapper">
-                                        <img src="img/screen1.jpg" class="img-responsive" alt="work-1">
-                                        <div class="image-overlay">
-                                            <p>
-                                                View Detail
-                                            </p>
-                                        </div><!--.image-overlay-->
-                                    </div><!--.image-wrapper-->
-
-                                    <div class="work-sesc">
-                                        <p>
-                                            Landing Page
-                                        </p>
-                                    </div><!--.work-desc--> </a>
-                            </div><!--project post-->
-                            <div class="project-post illustration web-design">
-                                <a  href="img/screen2.jpg" target="_blank">
-                                    <div class="image-wrapper">
-                                        <img src="img/screen2.jpg" class="img-responsive" alt="work-1">
-                                        <div class="image-overlay">
-                                            <p>
-                                                View Detail
-                                            </p>
-                                        </div><!--.image-overlay-->
-                                    </div><!--.image-wrapper-->
-
-                                    <div class="work-sesc">
-                                        <p>
-                                            Contribution Systems
-                                        </p>
-                                    </div><!--.work-desc--> </a>
-                            </div><!--project post-->
-                            <div class="project-post photography web-design">
-                                <a href="img/screen3.jpg" target="_blank">
-                                    <div class="image-wrapper">
-                                        <img src="img/screen3.jpg" class="img-responsive" alt="work-1">
-                                        <div class="image-overlay">
-                                            <p>
-                                                View Detail
-                                            </p>
-                                        </div><!--.image-overlay-->
-                                    </div><!--.image-wrapper-->
-
-                                    <div class="work-sesc">
-                                        <p>
-                                            Browsing
-                                        </p>
-                                    </div><!--.work-desc--> </a>
-                            </div><!--project post-->
-
-                            <div class="project-post branding">
-                                <a href="img/screen4.jpg" target="_blank">
-                                    <div class="image-wrapper">
-                                        <img src="img/screen4.jpg" class="img-responsive" alt="work-1">
-                                        <div class="image-overlay">
-                                            <p>
-                                                View Detail
-                                            </p>
-                                        </div><!--.image-overlay-->
-                                    </div><!--.image-wrapper-->
-                                </a>
-                                <div class="work-sesc">
-                                    <p>
-                                        Start Campaigns
-                                    </p>
-                                </div><!--.work-desc-->
-                            </div><!--project post-->
-
-
-                            <div class="project-post illustration web-design">
-                                <a  href="img/screen5.jpg" target="_blank">
-                                    <div class="image-wrapper">
-                                        <img src="img/screen5.jpg" class="img-responsive" alt="work-1">
-                                        <div class="image-overlay">
-                                            <p>
-                                                View Detail
-                                            </p>
-                                        </div><!--.image-overlay-->
-                                    </div><!--.image-wrapper-->
-
-                                    <div class="work-sesc">
-                                        <p>
-                                            Admin Dashboard
-                                        </p>
-                                    </div><!--.work-desc-->
-                                </a>
-                            </div><!--project post-->
-
-
-                            <div class="project-post illustration web-design">
-                                <a  href="img/screen6.jpg" target="_blank">
-                                    <div class="image-wrapper">
-                                        <img src="img/screen6.jpg" class="img-responsive" alt="work-1">
-                                        <div class="image-overlay">
-                                            <p>
-                                                View Detail
-                                            </p>
-                                        </div><!--.image-overlay-->
-                                    </div><!--.image-wrapper-->
-                                    <div class="work-sesc">
-                                        <p>
-                                            WeiCoin Token Builder
-                                        </p>
-                                    </div><!--.work-desc-->
-                                </a>
-                            </div><!--project post-->
-                            <div class="project-post illustration web-design">
-                                <a  href="img/screen2.jpg" target="_blank">
-                                    <div class="image-wrapper">
-                                        <img src="img/screen2.jpg" class="img-responsive" alt="work-1">
-                                        <div class="image-overlay">
-                                            <p>
-                                                View Detail
-                                            </p>
-                                        </div><!--.image-overlay-->
-                                    </div><!--.image-wrapper-->
-
-                                    <div class="work-sesc">
-                                        <p>
-                                            Contribution Systems
-                                        </p>
-                                    </div><!--.work-desc--> </a>
-                            </div><!--project post-->
-                            <div class="project-post illustration web-design">
-                                <a  href="img/screen6.jpg" target="_blank">
-                                    <div class="image-wrapper">
-                                        <img src="img/screen6.jpg" class="img-responsive" alt="work-1">
-                                        <div class="image-overlay">
-                                            <p>
-                                                View Detail
-                                            </p>
-                                        </div><!--.image-overlay-->
-                                    </div><!--.image-wrapper-->
-                                    <div class="work-sesc">
-                                        <p>
-                                            WeiCoin Token Builder
-                                        </p>
-                                    </div><!--.work-desc-->
-                                </a>
-                            </div><!--project post-->
-
-                        </div>
-                    </div>
-
-
-                    <br /><br /><br /><br /> <br />
-                </div><!--container-->
-
-
-            </div><!--work section 1-->
-
-            <!-- benefits -->
-            <div class="services-section-1" id="benefits">
-                <div class="container">
-                    <div class="section-heading text-center">
-
-                        <br /><br /><br /><br /> <br />
-
-                        <h4 class="small section-title"><span>Capitalize on the platform</span></h4>
-                        <h2 class="large section-title">Distribute your touch app</h2>
-                    </div><!--section heading-->
-
-                </div><!--container-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="margin-btm-40">
-                                <h4>For designers</h4>
-                                <p>
-                                    Designers can create a fully branded solution and deliver a product to their clients which they can both maintain and refactor over time.
-                                    Digital interactive signage has become a popular continuous source of income for designers world wide.
-                                    With our kiosk solution we help promote this venture by allowing designers the ability to fully brand the entire solution and by incorporating all the tools designers need to create a sophisticated application which they can support over time.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="margin-btm-40">
-                                <h4>For resellers</h4>
-                                <p>
-                                    Just like our Digital Signage product, the interactive solution opens the doors for resellers and enterprise alike to continue and up-sale the product and create
-                                    an entire business solution with added offerings, white label and custom support of the product.
-                                    Best of all, we do not charge our enterprise members any additional fees for mediaTOUCH, so what are you waiting for? go sale something!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <br /><br /><br /><br />
-            </div><!--services section 1 end-->
-            
-            <!--testimonials-->
-            <div class="testi parallax " data-stellar-background-ratio="0.5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center">
-                            <div id="testi-carousel" class="owl-carousel">
-                                <div>
-                                    <img src="img/icons/joe.jpg" alt="">
-                                    <h4>
-                                        Decentralized crowdfunding and equity crowdfunding on Ever Vision will enable any project or business on the planet to grow its stakeholder pool early in the project and draw from a population of seven billion potential participants.
-                                    </h4>
-                                    <p>Joseph Lubin - <a href="#" target="_blank">Ethereum</a> & <a href="#" target="_blank">ConsenSys</a>  Founder</p>
-                                </div><!--testimonials item like paragraph-->
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="margin-btm-40">
+                        <h4>For resellers</h4>
+                        <p>
+                            Just like our Digital Signage product, the interactive solution opens the doors for resellers and enterprise alike to continue and up-sale the product and create
+                            an entire business solution with added offerings, white label and custom support of the product.
+                            Best of all, we do not charge our enterprise members any additional fees for mediaTOUCH, so what are you waiting for? go sale something!
+                        </p>
                     </div>
                 </div>
             </div>
-            <!--testimonials-->
-            <div class="work-section-2" id="team">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 text-center margin-btm-40">
-                            <div class="section-heading text-center">
-                                <h4 class="small section-title"><span>Super creative heroes</span></h4>
-                                <h2 class="large section-title">Digital Signage integration</h2>
-                            </div>
-                        </div>
-                    </div><!--.row-->
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <div class="person">
-                                <img src="img/team/nick.jpg" class="img-responsive" alt="">
-                                <div class="person-desc">
-                                    <h4>Nick Dodson</h4>
-                                    <em>Founder, Lead Developer</em>
-                                    <p>
-                                        Crypto-developer specializing in open-source decentralized applications.
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!--team-col-->
-                        <div class="col-sm-3">
-                            <div class="person">
-                                <img src="img/team/joris.jpg" class="img-responsive" alt="">
-                                <div class="person-desc">
-                                    <h4>Joris Bontje</h4>
-                                    <em>Technical Advisor</em>
-                                    <p>
-                                        Decentralized Autonomous Technologist. Big Data Hacker &amp; <a href="#">Software Engineer</a>. Co-host at <a href="#">EtherCasts</a>. <a href="#">Captain Obvious</a>.
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!--team-col-->
-                        <div class="col-sm-3">
-                            <div class="person">
-                                <img src="img/team/massi.jpg" class="img-responsive" alt="">
-                                <div class="person-desc">
-                                    <h4>Massimiliano Terzi</h4>
-                                    <em>Software Engineer</em>
-                                    <p>
-                                        Financial analyst with a passion for programming and technology. Bitcoin adopter, early Ethereum enthusiast. WeiLend founder</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="person">
-                                <img src="img/team/aaron.jpg" class="img-responsive" alt="">
-                                <div class="person-desc">
-                                    <h4>Aaron Davis</h4>
-                                    <em>Technical Advisor</em>
-                                    <p>
-                                        Code composer. Creator of MetaMask Ethereum browser.
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!--team-col-->
-                    </div>
-                </div><!--.container-->
-            </div><!--team section end-->
-            <div class="purchase-now parallax" data-stellar-background-ratio="0.5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <h1 class="wow animated fadeInLeft" data-wow-delay="0.3s"><strong>Ready to start?</strong> open your <strong>FREE</strong> account <strong>now</strong></h1>
-                        </div>
-                        <div class="col-sm-4">
-                            <a href="http://start.digitalsignage.com" target="_blank" class="btn btn-lg btn-theme-color wow animated bounceIn" data-wow-delay="0.6s"> get started</a>
-                        </div>
+        </div>
+
+        <br/><br/><br/><br/>
+    </div><!--services section 1 end-->
+
+    <!--testimonials-->
+    <div class="testi parallax " data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <div id="testi-carousel" class="owl-carousel">
+                        <div>
+                            <img src="img/icons/joe.jpg" alt="">
+                            <h4>
+                                The real power of our interactive solution is its seamless integration between touch and Digital Signage.
+                                Just imagine, your customer makes a selection by dragging an image across a tablet,
+                                and in turn this action will change the presentation across all the screens at the location, talk about a captive audience...
+                            </h4>
+                            <p><a href="#" target="_blank">checkout the video to see it in action</a></p>
+                        </div><!--testimonials item like paragraph-->
                     </div>
                 </div>
             </div>
-        </section><!--#work-section-->
-
-        
-        <section id="contact" class="padding-80">
-
-
-            <div class="contact-sec-1">
-                <div class="container">
+        </div>
+    </div>
+    <!--testimonials-->
+    <div class="work-section-2" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center margin-btm-40">
                     <div class="section-heading text-center">
-                        <h4 class="small section-title"><span>Let us create a beautiful app for you</span></h4>
-                        <h2 class="large section-title">EasyStart</h2>
-                    </div><!--section heading-->
-                </div><!--.container-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <h4>Get in touch</h4>
-                            <form name="sentMessage" id="contactForm" method="post" novalidate>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="row control-group">
-                                            <div class="form-group col-xs-12 controls">
-                                                <label>Name<span>*</span></label>
-                                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                                <p class="help-block"></p>
-                                            </div>
-                                        </div>
+                        <h4 class="small section-title"><span>Super creative heroes</span></h4>
+                        <h2 class="large section-title">awesome examples</h2>
+                    </div>
+                </div>
+            </div><!--.row-->
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="person">
+                        <img src="img/team/nick.jpg" class="img-responsive" alt="">
+                        <div class="person-desc">
+                            <h4>Restaurant order taking</h4>
+                            <em>Founder, Lead Developer</em>
+                            <p>
+                                Crypto-developer specializing in open-source decentralized applications.
+                            </p>
+                        </div>
+                    </div>
+                </div><!--team-col-->
+                <div class="col-sm-3">
+                    <div class="person">
+                        <img src="img/team/joris.jpg" class="img-responsive" alt="">
+                        <div class="person-desc">
+                            <h4>Building directory</h4>
+                            <em>Technical Advisor</em>
+                            <p>
+                                Decentralized Autonomous Technologist. Big Data Hacker &amp; <a href="#">Software Engineer</a>. Co-host at <a href="#">EtherCasts</a>. <a href="#">Captain Obvious</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div><!--team-col-->
+                <div class="col-sm-3">
+                    <div class="person">
+                        <img src="img/team/massi.jpg" class="img-responsive" alt="">
+                        <div class="person-desc">
+                            <h4>Hospitality concierge</h4>
+                            <em>Software Engineer</em>
+                            <p>
+                                Financial analyst with a passion for programming and technology. Bitcoin adopter, early Ethereum enthusiast. WeiLend founder</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="person">
+                        <img src="img/team/aaron.jpg" class="img-responsive" alt="">
+                        <div class="person-desc">
+                            <h4>Retail product selector</h4>
+                            <em>Technical Advisor</em>
+                            <p>
+                                Code composer. Creator of MetaMask Ethereum browser.
+                            </p>
+                        </div>
+                    </div>
+                </div><!--team-col-->
+            </div>
+        </div><!--.container-->
+    </div><!--team section end-->
+    <div class="purchase-now parallax" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1 class="wow animated fadeInLeft" data-wow-delay="0.3s"><strong>Ready to start?</strong> open your <strong>FREE</strong> account <strong>now</strong></h1>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://start.digitalsignage.com" target="_blank" class="btn btn-lg btn-theme-color wow animated bounceIn" data-wow-delay="0.6s"> get started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--#work-section-->
 
-                                    </div>
+<section id="contact" class="padding-80">
 
-                                    <div class="col-md-6">
-                                        <div class="row control-group">
-                                            <div class="form-group col-xs-12 controls">
-                                                <label>Email Address<span>*</span></label>
-                                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                                <p class="help-block"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
+    <div class="contact-sec-1">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h4 class="small section-title"><span>Let us create a beautiful app for you</span></h4>
+                <h2 class="large section-title">EasyStart</h2>
+                <p>If you are interested in having a custom, professional interactive screen created for you, please let us know. <br/>
+                    We will have our designer contact you so we can go over your requirements and quote you a price.</p>
+            </div><!--section heading-->
+        </div><!--.container-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4>Get in touch</h4>
+                    <form name="sentMessage" id="contactForm" method="post" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
                                 <div class="row control-group">
                                     <div class="form-group col-xs-12 controls">
-                                        <label>Message<span>*</span></label>
-                                        <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                        <label>Name<span>*</span></label>
+                                        <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
                                         <p class="help-block"></p>
                                     </div>
                                 </div>
-                                <br>
-                                <div id="success"></div>
-                                <div class="row">
-                                    <div class="form-group col-xs-12">
-                                        <button type="submit" class="btn btn-theme-color btn-lg">Send Message</button>
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-12 controls">
+                                        <label>Email Address<span>*</span></label>
+                                        <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                        <p class="help-block"></p>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                            <!--contact form-->
-                        <div class="col-md-4">
-                            <h4>Contact info</h4>
-                            <div class="contact-info wow animated fadeInRight" data-wow-delay=".6s">
-                                <p><i class="fa fa-user"></i> Active Contact: Dynasty John</p>
-                                <p><i class="fa fa-envelope"></i> <a href="#">mail@evervision.io</a></p>
-                                <p><i class="fa fa-clock-o"></i> Monday-Friday 11:30-6:30pm</p>
-                                <hr>
-                                <h4>Get In Touch</h4>
-                                <ul class="list-inline social-colored">
-                                    <li><a href="#"><i class="fa fa-facebook icon-fb" data-toggle="tooltip" title="" data-original-title="Facebook" data-placement="top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter icon-twit" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin icon-in" data-toggle="tooltip" title="" data-original-title="Linkedin" data-placement="top"></i></a></li>
-
-                                </ul> <!--colored social-->
                             </div>
                         </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 controls">
+                                <label>Message<span>*</span></label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-theme-color btn-lg">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--contact form-->
+                <div class="col-md-4">
+                    <h4>Contact info</h4>
+                    <div class="contact-info wow animated fadeInRight" data-wow-delay=".6s">
+                        <p><i class="fa fa-user"></i> <a href="http://chat.digitalsignage.com" target="_blank">speak with live chat</a></p>
+                        <p><i class="fa fa-phone"></i> To call us: 877-DIG-SIGN</p>
+                        <p><i class="fa fa-clock-o"></i> We will contact you within 48 hours</p>
+                        <hr>
+                        <h4>Get In Touch</h4>
+                        <ul class="list-inline social-colored">
+                            <li><a href="http://plus.digitalsignage.com" target="_blank"><i style="background-color: red" class="fa fa-google-plus icon-fb" data-toggle="tooltip" title="" data-original-title="Google+" data-placement="top"></i></a>
+                            </li>
+                            <li><a href="http://twitter.digitalsignage.com" target="_blank"><i class="fa fa-twitter icon-twit" data-toggle="tooltip" title="" data-original-title="Twitter" data-placement="top"></i></a></li>
+                            <li><a href="http://www.digitalsignage.com/_html/contactv3.html" target="_blank"><i class="fa fa-paper-plane-o icon-in" data-toggle="tooltip" title="" data-original-title="email" data-placement="top"></i></a></li>
+
+                        </ul> <!--colored social-->
                     </div>
                 </div>
-            </div><!--Contact-sec-1 end-->
+            </div>
+        </div>
+    </div><!--Contact-sec-1 end-->
 
-        </section><!--contact section end-->  
+</section><!--contact section end-->
 
-        <section id="footer" class="padding-80">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 copyright">
-                       <a href="index.html">
-                           <div class="logo-gr-sm"><img src="img/logo.png"  /></div><!--
+<section id="footer" class="padding-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 copyright">
+                <a href="index.html">
+                    <div class="logo-gr-sm"><img src="img/logo.png"/></div><!--
                         </a>
                      <div class="footer-cp"> &copy; MediaSignage Inc. All rights reserved. </div>
                     </div>
                 </div>
             </div>
         </section><!--footer end-->
-<!--back to top-->
-<a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
-<!--back to top end-->
+                    <!--back to top-->
+                    <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+                    <!--back to top end-->
 
-<!--script files-->
-<script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/moderniz.min.js" type="text/javascript"></script>
-<script src="js/jquery-migrate.min.js" type="text/javascript"></script> 
-<script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
-<script src="css/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
-<script src="js/wow.min.js" type="text/javascript"></script>
-<script src="js/jquery.sticky.js" type="text/javascript"></script>        
-<script src="js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-<script src="js/jquery.stellar.min.js" type="text/javascript"></script>
-<script src="js/owl.carousel.min.js" type="text/javascript"></script>
-<script src="js/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/easypiechart.js"></script>
-<script src="js/jquery.isotope.min.js" type="text/javascript"></script>
-<!--image loads plugin -->
-<script src="js/jquery.imagesloaded.min.js" type="text/javascript"></script>
-<script src="js/jquery.counterup.min.js" type="text/javascript"></script>
-<script src="js/jquery.countdown.js" type="text/javascript"></script>
-<script src="js/contact_me.js" type="text/javascript"></script>
-<script src="js/jqBootstrapValidation.js" type="text/javascript"></script>
-<script src="js/custom.js" type="text/javascript"></script>
-<!--revolution slider plugins-->
-<script src="js/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-<script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
-<script src="js/revolution-custom.js" type="text/javascript"></script>
-<script src="js/isotope-custom.js" type="text/javascript"></script>
-<script src="js/pace.min.js" type="text/javascript"></script> 
+                    <!--script files-->
+                    <script src="js/jquery.min.js" type="text/javascript"></script>
+                    <script src="js/moderniz.min.js" type="text/javascript"></script>
+                    <script src="js/jquery-migrate.min.js" type="text/javascript"></script>
+                    <script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+                    <script src="css/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+                    <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+                    <script src="js/wow.min.js" type="text/javascript"></script>
+                    <script src="js/jquery.sticky.js" type="text/javascript"></script>
+                    <script src="js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+                    <script src="js/jquery.stellar.min.js" type="text/javascript"></script>
+                    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+                    <script src="js/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>
+                    <script src="js/waypoints.min.js"></script>
+                    <script src="js/easypiechart.js"></script>
+                    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
+                    <!--image loads plugin -->
+                    <script src="js/jquery.imagesloaded.min.js" type="text/javascript"></script>
+                    <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
+                    <script src="js/jquery.countdown.js" type="text/javascript"></script>
+                    <script src="js/contact_me.js" type="text/javascript"></script>
+                    <script src="js/jqBootstrapValidation.js" type="text/javascript"></script>
+                    <script src="js/custom.js" type="text/javascript"></script>
+                    <!--revolution slider plugins-->
+                    <script src="js/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+                    <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+                    <script src="js/revolution-custom.js" type="text/javascript"></script>
+                    <script src="js/isotope-custom.js" type="text/javascript"></script>
+                    <script src="js/pace.min.js" type="text/javascript"></script>
+                    <script src="js/bootbox.min.js" type="text/javascript"></script>
+                    <script type="text/javascript" src="http://www.digitalsignage.com/html5lightbox/html5lightbox.js"></script>
+
+                    <script>
+                        function validateEmail(email) {
+                            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                            return re.test(email);
+                        }
+
+                        $("#contactForm").submit(function (event) {
+                            event.preventDefault();
+                            var message = $('#message').val();
+                            var email = $('#email').val();
+                            var name = $('#name').val();
+                            if (!validateEmail(email))
+                                return bootbox.alert('<h5>Please enter valid email address and try again...</h5>');
+                            if (name.length < 2 || email.message < 6)
+                                return bootbox.alert('<h5>Please fill all the fields and try again...</h5>');
+
+                            var data = {
+                                userName: name,
+                                topic: 'sales',
+                                company: '',
+                                email: email,
+                                message: message
+                            }
+                            $.ajax({
+                                type: "POST",
+                                url: 'https://secure.digitalsignage.com/submitContact_v2',
+                                data: data,
+                                success: function () {
+                                    bootbox.alert('<h5>We will reply back shortly...</h5>');
+                                }
+                            });
+
+                        });
+
+                    </script>
+
+
 </body>
 </html>

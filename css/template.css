@@ -438,8 +438,8 @@ social icons css here
   -ms-border-radius: 2px;
   border-radius: 2px; }
 
-.social-colored li a i.icon-fb {
-  background-color: #077aaa; }
+.social-colored li a i.icon-fb {  
+  background-color: red; }
 
 .social-colored li a i.icon-twit {
   background-color: #00A8FF; }
